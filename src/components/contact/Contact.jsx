@@ -1,9 +1,23 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./contact.css";
 import { BiMailSend } from "react-icons/bi";
 import { RiMessengerLine, RiWhatsappLine } from "react-icons/ri";
+// Emailjs
+import emailjs from "emailjs-com";
 
 const Contact = () => {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs.sendForm(
+      "service_gw8li77",
+      "template_4dq4jnk",
+      form.current,
+      "toXw7_sTbVRrKmjI_"
+    );
+    e.target.reset();
+    
+  };
   return (
     <section id="contact">
       <h5>Get In Touch</h5>
@@ -37,7 +51,7 @@ const Contact = () => {
             </a>
           </article>
         </div>
-        <form action="" className="contact-form">
+        <form ref={form} onSubmit={sendEmail} className="contact-form">
           <input type="text" name="name" placeholder="Your Name" required />
           <input type="email" name="email" placeholder="Your Email" required />
           <textarea
