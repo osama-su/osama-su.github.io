@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/me.png";
+import ME from "../../assets/about-me.jpg";
 import { FaProjectDiagram } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { BsFolderCheck } from "react-icons/bs";
