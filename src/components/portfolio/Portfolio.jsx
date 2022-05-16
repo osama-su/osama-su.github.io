@@ -10,7 +10,7 @@ const data = [
     image: Two048Clone,
     havesource: true,
     sourcecode: "https://github.com/osama-su/2048-clone",
-    liveDemo: "https://osamaahmed.me/2048-clone",
+    liveDemo: "https://2048.osamaahmed.me",
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const data = [
     image: PortfolioV01,
     havesource: true,
     sourcecode: "https://github.com/osama-su/portfolio-v0.1",
-    liveDemo: "https://osamaahmed.me/portfolio-v0.1",
+    liveDemo: "https://portfolio.osamaahmed.me",
   },
 ];
 

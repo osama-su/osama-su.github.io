@@ -16,7 +16,6 @@ const Contact = () => {
       "toXw7_sTbVRrKmjI_"
     );
     e.target.reset();
-    
   };
   return (
     <section id="contact">
