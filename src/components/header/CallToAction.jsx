@@ -6,6 +6,9 @@ const CallToAction = () => {
       <a href="#contact" className="btn btn-primary">
         Let's Talk
       </a>
+      <a href="https://blog.osamaahmed.me" className="btn btn-primary">
+        My Blog
+      </a>
     </div>
   );
 };
